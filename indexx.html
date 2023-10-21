@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- navbar same as page 1 to keep consistency -->
+    <body class="container">
+      
+        <nav class="navbar navbar-expand- navbar-dark badge-secondary">
+            <a class="navbar-brand" href="index.html"> 
+                <button class="btn btn-info">CodeProject1</button></a>
+            <a class="navbar-brand" href="indexx.html">
+               <button class="btn btn-info">Page<span class="badge badge-secondary">2</span></button> 
+           </a>
+           
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item active">
+                <a class="nav-link"href="index.html">Home</a>
+               </li>
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Click Here
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
+                <a class="dropdown-item" href="https://www.eurosport.com/score-center.shtml"><button class="btn btn-success"> live results</button></a>
+            </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+<!-- FORMS with adjust vertical columns -->
+<br>
+    <div class="container">
+        <h1>How to Join a football academy.</h1>
+    <form class="wi">
+              <div class="row">
+                    <div class="col-lg-3">
+                         <input type="text" name="Name" placeholder=" Enter your name">
+                         </div>
+                         <div class="col-lg-3">
+                         <input type="text" name="age"  placeholder=" Enter your age">
+                         </div>
+                         <div class="col-lg-6">
+                         <input type="text" name="Location"  placeholder=" Nationality">
+                         </div>
+                         <div class="row">
+                         <div class="col-md"><br>
+         <h2>Write a short essay about your skills, aspirations and favorite football player</h2><br>
+        <textarea rows="10" cols="70">   </textarea><br>
+                        <input type="submit" name="submit" value="submit">
+                         </div>
+    </form>
+</div>
+<br>
+<!-- nav bar fixec at bottom but with images that are used as link to other website -->
+    <nav class="navbar fixed-bottom bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="https://www.google.com/search?q=pele&oq=pele&gs_lcrp=
+          EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGDwyBggDEEUYPNIBCDMwNTVqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8">
+            <img src="Goo.png" alt="Google" width="100" height="54">
+        <a class="navbar-brand" href="https://www.peleacademia.com/">
+            <img src="pelaca.png" alt="academy for pele football" width="150" height="70" margin="5px">
+          </a>
+        
+      </nav>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>

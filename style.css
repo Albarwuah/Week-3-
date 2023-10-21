@@ -1,0 +1,49 @@
+
+.Pele{
+    justify-content:center;
+    color: rgb(229, 135, 21);
+    background-color: beige;
+    text-shadow:rgb(127, 129, 128)1x 14px;
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+
+.gro{
+
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-block-start: 3%;
+    background-color:blanchedalmond;
+    border-radius: 2%;
+    border-color: greenyellow;
+    border-style: inset;
+    
+}
+
+.tab{
+border-style: solid;
+border-radius: 4px;
+width: 100%;
+border-collapse: collapse;
+border-color: greenyellow;
+
+}
+
+body{
+    background-color: rgb(150, 98, 61);
+}
+
+tr,td,th{
+
+    border-style: dotted;
+    padding: 10px;
+    background-color: blanchedalmond;
+    
+}
+
+
+h1,h2{
+    color: rgb(203, 189, 155);
+}
+
